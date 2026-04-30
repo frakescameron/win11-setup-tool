@@ -1,0 +1,37 @@
+[
+  { "name": "Brave Browser", "id": "Brave.Brave" },
+  { "name": "Google Chrome", "id": "Google.Chrome" },
+  { "name": "Opera GX", "id": "Opera.OperaGX" },
+
+  { "name": "Discord", "id": "Discord.Discord" },
+  { "name": "Spotify", "id": "Spotify.Spotify" },
+  { "name": "Steam", "id": "Valve.Steam" },
+
+  { "name": "VS Code", "id": "Microsoft.VisualStudioCode" },
+  { "name": "Git", "id": "Git.Git" },
+  { "name": "Node.js", "id": "OpenJS.NodeJS" },
+  { "name": "Python", "id": "Python.Python.3" },
+
+  { "name": "Docker Desktop", "id": "Docker.DockerDesktop" },
+  { "name": "VirtualBox", "id": "Oracle.VirtualBox" },
+
+  { "name": "7-Zip", "id": "7zip.7zip" },
+  { "name": "VLC", "id": "VideoLAN.VLC" },
+  { "name": "OBS Studio", "id": "OBSProject.OBSStudio" },
+  { "name": "REAPER", "id": "Cockos.REAPER" },
+  { "name": "ASIO4ALL", "id": "MichaelTippach.ASIO4ALL" },
+
+  { "name": "Rufus", "id": "Rufus.Rufus" },
+  { "name": "CCleaner", "id": "Piriform.CCleaner" },
+  { "name": "Malwarebytes", "id": "Malwarebytes.Malwarebytes" },
+
+  { "name": "Dropbox", "id": "Dropbox.Dropbox" },
+  { "name": "Google Drive", "id": "Google.Drive" },
+  { "name": "OneDrive", "id": "Microsoft.OneDrive" },
+
+  { "name": "MSI Afterburner", "id": "Guru3D.Afterburner" },
+  { "name": "GeForce Experience", "id": "Nvidia.GeForceExperience" },
+
+  { "name": "Wallpaper Engine", "id": "WallpaperEngine.WallpaperEngine" },
+  { "name": "League of Legends", "id": "RiotGames.LeagueOfLegends.NA" }
+]

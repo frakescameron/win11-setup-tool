@@ -1,0 +1,27 @@
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# PowerShell transcript logs
+*.txt
+
+# VS Code
+.vscode/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Node (if you ever add frontend later)
+node_modules/
+
+# Build / output folders (future-proofing)
+dist/
+build/
+
+# Archives
+*.zip
+*.7z
