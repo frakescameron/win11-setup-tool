@@ -27,8 +27,19 @@ if (-not $IsAdmin) {
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 # Set project root
-$scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+# Set project root
+if ($PSScriptRoot) {
+    $scriptRoot = $PSScriptRoot
+}
+elseif ($PSCommandPath) {
+    $scriptRoot = Split-Path -Parent $PSCommandPath
+}
+else {
+    $scriptRoot = [System.AppDomain]::CurrentDomain.BaseDirectory
+}
+
 Set-Location $scriptRoot
+
 
 # Create logs folder if missing
 $logsPath = Join-Path $scriptRoot "logs"
